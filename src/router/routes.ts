@@ -1,5 +1,14 @@
 export const routes = [
   {
+    name: 'login',
+    path: '/login',
+    component: () => import('/@/views/login/index.vue'),
+    meta: {
+      title: '',
+      keepAlive: true,
+    },
+  },
+  {
     path: '/',
     redirect: '/home',
     component: () => import('/@/layout/basic/index.vue'),
@@ -46,15 +55,6 @@ export const routes = [
         },
       },
     ],
-  },
-  {
-    name: 'login',
-    path: '/login',
-    component: () => import('/@/views/login/index.vue'),
-    meta: {
-      title: '',
-      keepAlive: true,
-    },
   },
   // 匹配不到重定向会主页
   {

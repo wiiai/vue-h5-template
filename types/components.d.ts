@@ -23,6 +23,7 @@ declare module 'vue' {
     NutTabbarItem: typeof import('@nutui/nutui')['TabbarItem'];
     RouterLink: typeof import('vue-router')['RouterLink'];
     RouterView: typeof import('vue-router')['RouterView'];
+    Text: typeof import('./../src/components/Text/index.vue')['default'];
     VanButton: typeof import('vant/es')['Button'];
     VanNavBar: typeof import('vant/es')['NavBar'];
     VarButton: typeof import('@varlet/ui')['_ButtonComponent'];

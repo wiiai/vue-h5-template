@@ -64,8 +64,6 @@
 </script>
 
 <style lang="scss" scoped>
-  @import '../../styles/mixin.scss';
-
   section {
     .title {
       font-size: 40px;
