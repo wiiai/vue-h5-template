@@ -8,8 +8,8 @@ hero:
   name: vue-h5-template
   text: vue h5 移动端快速开发脚手架
   image:
-    src: https://cdn.jsdelivr.net/gh/fonghehe/picture/vue-h5-template/logo.png
-    alt: sunnie
+    src: http://s3.airtlab.com/blog/h222.png
+    alt: wiiai
   actions:
     - theme: brand
       text: 开始
